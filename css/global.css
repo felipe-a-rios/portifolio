@@ -19,3 +19,11 @@ img {
   max-width: 100%;
   display: block;
 }
+.subtitle {
+  color: #d9bce7;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 60px;
+}

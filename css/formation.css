@@ -1,0 +1,67 @@
+.education {
+  background: #222222;
+  padding: 110px 0 100px 0;
+  width: 100%;
+}
+.education .subtitle {
+  margin: 0px 0 0 160px;
+}
+.educationText {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #babbc7;
+  margin: 60px 165px;
+}
+.education b {
+  color: #fff;
+}
+.educationText strong {
+  color: #d9bce7;
+}
+.education h3 {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  margin: 60px 0 0 165px;
+  color: #babbc7;
+}
+.coursesContainer {
+  margin: 30px 165px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.containerCard {
+  background: #101010;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 15px 50px 15px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.containerCard h2 {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #d9bce7;
+}
+.containerCard p,
+span {
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.containerCard p {
+  font-weight: bold;
+}
