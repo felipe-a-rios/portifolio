@@ -62,6 +62,6 @@ span {
   line-height: 15px;
   color: #ffffff;
 }
-.containerCard p {
+.containerCard span {
   font-weight: bold;
 }
