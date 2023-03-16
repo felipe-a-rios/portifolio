@@ -28,13 +28,3 @@ a {
   align-items: center;
   gap: 8px;
 }
-/* 
-.linkedin::before {
-  content: "";
-  position: absolute;
-  background: url("../icons/linkedin.svg") no-repeat center;
-  height: 60px;
-  width: 60px;
-  bottom: -10px;
-  left: -60px;
-} */
