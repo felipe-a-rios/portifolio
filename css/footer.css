@@ -28,3 +28,32 @@ a {
   align-items: center;
   gap: 8px;
 }
+@media (max-width: 480px) {
+  .footer {
+    width: auto;
+    padding: 2rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: flex-start;
+  }
+  .footerLogo {
+    margin: 0;
+    height: auto;
+    width: auto;
+    align-self: center;
+  }
+  .footerLogo img {
+    height: 200px;
+    width: 130px;
+  }
+  .footer p,
+  a {
+    font-size: 1rem;
+  }
+  .linkedin img {
+    height: 30px;
+    width: 30px;
+  }
+}
