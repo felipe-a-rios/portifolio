@@ -186,3 +186,60 @@ span {
     margin: 0;
   }
 }
+@media (min-width: 800px) {
+  .education {
+    width: auto;
+    padding: 5rem 10.5rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .education .subtitle {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 0;
+  }
+  .educationText {
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem 0 0 0;
+  }
+  .education h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+  .education h3::after {
+    content: "";
+    width: 0;
+    height: 0;
+  }
+  .coursesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 36px;
+  }
+
+  .containerCard h2 {
+    font-size: 1rem;
+  }
+  .containerCard p,
+  span {
+    font-size: 0.9rem;
+  }
+  .education h4 {
+    margin: 3rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  .education h4::after {
+    content: "";
+    width: 0;
+    height: 0;
+  }
+  .languages {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}

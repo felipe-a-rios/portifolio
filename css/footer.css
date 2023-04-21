@@ -22,11 +22,16 @@ a {
   text-decoration: none;
 }
 
-.linkedin {
+.flexIcon {
   display: flex;
   text-align: center;
   align-items: center;
   gap: 8px;
+}
+.footerTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 @media (max-width: 480px) {
   .footer {
@@ -52,8 +57,28 @@ a {
   a {
     font-size: 1rem;
   }
-  .linkedin img {
-    height: 30px;
-    width: 30px;
+}
+@media (min-width: 800px) {
+  .footer {
+    width: auto;
+    padding: 2rem 10.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+  .footerLogo {
+    margin: 0;
+    height: auto;
+    width: auto;
+  }
+  .footerLogo img {
+    height: 200px;
+    width: 130px;
+  }
+  .footer p,
+  a {
+    font-size: 1rem;
   }
 }

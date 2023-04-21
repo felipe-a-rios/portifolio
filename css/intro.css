@@ -1,12 +1,13 @@
 .intro {
-  max-width: 100vw;
-  padding: 0.62rem 1.25rem;
-  margin: 116px 140px;
+  //max-width: 100vw;
+  padding: 0px 1.25rem;
+  margin: 70px 140px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 135px;
+  gap: 136px;
   align-items: center;
 }
+
 .intro h1 {
   font-family: "JetBrains Mono";
   color: #d9bce7;
@@ -69,5 +70,31 @@
   .intro img {
     height: 0;
     width: 0;
+  }
+}
+@media (min-width: 800px) {
+  .intro {
+    width: auto;
+    padding: 5rem 10.5rem;
+    margin: 0;
+    display: flex;
+
+    gap: 56px;
+  }
+  .intro h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    align-self: center;
+  }
+  .intro h1::before,
+  .intro p::before {
+    content: "";
+    background: transparent;
+    width: 0;
+    height: 0;
+  }
+  .intro img {
+    height: 200px;
+    width: 100;
   }
 }
